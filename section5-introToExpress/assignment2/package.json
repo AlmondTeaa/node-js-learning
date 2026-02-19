@@ -1,20 +1,19 @@
 {
-  "name": "section5-introtoexpress",
+  "name": "assignment2",
   "version": "1.0.0",
   "description": "",
   "license": "ISC",
   "author": "Jos Almonte",
   "type": "commonjs",
-  "main": "app.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon app.js"
   },
   "devDependencies": {
-    "body-parser": "^2.2.2",
     "nodemon": "^3.1.11"
   },
   "dependencies": {
-    "express": "^5.2.1"
+    "body-parser": "^2.2.2"
   }
 }

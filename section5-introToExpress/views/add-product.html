@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intro to express</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <header>
+        <nav class = "navigation">
+            <ul class="navBar">
+                <li><a href = "/">Home</a></li>
+                <li><a href="/admin/add-product">Shopping</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class = "mainSect">
+        <form action="/admin/add-product" method="post" >
+            <input type="text" name="title" placeholder="Enter Product Name">
+            <button type="submit">Submit</button>
+        </form>
+    </main>
+</body>
+</html>

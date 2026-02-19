@@ -1,0 +1,44 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+body {
+   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;width: 100vw;
+    height: 100vh;
+}
+
+ul.navBar {
+    display: flex;
+    font-size: 2rem;
+    list-style: none;
+}
+
+ul.navBar li {
+    outline: none;
+    margin-right: 2rem;
+}
+
+ul.navBar li a {
+    text-decoration: none;  /* Removes underline */
+    color: #333;           /* Changes blue to dark gray (or any color you want) */
+    outline: none;         /* Removes click highlight */
+}
+
+nav.navigation {
+    
+    padding: 2%;
+    background-color: blanchedalmond;
+}
+
+main.mainSect {
+    padding-top: 2vh;
+    padding-left: 2vw;
+    font-size: 2rem;
+}
